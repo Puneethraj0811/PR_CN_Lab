@@ -12,7 +12,7 @@ void main()
 	{
 		printf("%d ",data[i]);
 	}
-	printf("Receiver side\n");
+	printf("\nReceiver side\n");
 	printf("Encoded bits are:\n");
 	for(i=0;i<7;i++)
 	{
