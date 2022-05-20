@@ -23,7 +23,7 @@ BEGIN {
 	}
 }
 END {
-	printf("\nNumber of packets dropped is: %d\n",count);
+	printf("\nNumber of packets dropped is: %d\n",$11);
 	printf("Packet sent from source node 1 is: %d\n",sent1);
 	printf("Packet sent from source node 2 is: %d\n",sent2);
 	printf("Packet received is: %d\n",rcvd);
