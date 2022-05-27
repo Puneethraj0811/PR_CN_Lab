@@ -52,7 +52,7 @@ $ns duplex-link-op $n0 $n3 orient left
 $ns duplex-link-op $n0 $n4 orient left-up
 
 set mproto DM ; #configure multicast protocol
-set mrthandle [$ns mrtproto $mproto] ; #all nodes will contain multicast agents
+set mrthandle [$ns mrtproto $mproto] ; #all nodes will contain multicast agents at node 1
 
 #===================================
 #        Agents Definition        
