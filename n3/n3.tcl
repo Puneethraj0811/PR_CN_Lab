@@ -66,6 +66,7 @@ $udp set dst_port_ 0 #set destination port
 set rcvr1 [new Agent/LossMonitor] ;#create a receiver agent at node 1
 $ns attach-agent $n1 $rcvr1
 $ns at 1.2 "$n1 join-group $rcvr1 $group" ;#at what time n1 will join the group as soon as n0 start transmitting the packet to n1
+
 $ns at 1.9 "$n1 leave-group $rcvr1 $group" ;#at what time n1 will leave the group
 
 set rcvr2 [new Agent/LossMonitor] ;#create a receiver agent at node 2
